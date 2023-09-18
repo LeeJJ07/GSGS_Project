@@ -8,7 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
+/**
+ * 회원가입에서 가게 토글을 눌렸을 때 수행되는 화면
+ */
 public class fragment_store extends Fragment {
     public fragment_store(){
 
