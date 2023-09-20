@@ -1,3 +1,8 @@
+/**
+ * 이 페이지는 겸사겸사 어플리케이션의 첫 화면 페이지 구성입니다.
+ * 로그인과 회원가입을 진행 할 수 있습니다.
+ */
+
 package com.example.fiirst_screen;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,10 +16,7 @@ import android.text.style.UnderlineSpan;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * 이 페이지는 겸사겸사 어플리케이션의 첫 화면 페이지 구성입니다.
- * 로그인과 회원가입을 진행 할 수 있습니다.
- */
+
 public class MainActivity extends AppCompatActivity {
 
     TextView tv_start; //로그인 시작 텍스트변수

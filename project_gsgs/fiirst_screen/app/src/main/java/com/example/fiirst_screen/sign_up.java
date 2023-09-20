@@ -1,3 +1,8 @@
+/**
+ * 회원가입을 하는 페이지
+ * 프래그먼트를 이용하여 학생과 가게 토글 클릭시 화면이 변화도록 구성
+ */
+
 package com.example.fiirst_screen;
 
 import android.os.Bundle;
@@ -9,10 +14,7 @@ import android.widget.RadioGroup;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
-/**
- * 회원가입을 하는 페이지
- * 프래그먼트를 이용하여 학생과 가게 토글 클릭시 화면이 변화도록 구성
- */
+
 public class sign_up extends AppCompatActivity {
 
     private RadioGroup rg_select;               //토글 그룹 아이디 저장 변수

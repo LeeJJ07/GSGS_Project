@@ -1,3 +1,7 @@
+/**
+ * 회원가입에서 학생 토글을 눌렸을 때 수행되는 화면
+ */
+
 package com.example.fiirst_screen;
 
 import android.app.ProgressDialog;
@@ -23,14 +27,14 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-/**
- * 회원가입에서 학생 토글을 눌렸을 때 수행되는 화면
- */
+
 public class fragment_student extends Fragment implements AdapterView.OnItemSelectedListener{
     private EditText et_id, et_pw, et_nickname;
     private Button btn_register;
 
-    private static String IP_ADDRESS = "192.168.0.2";
+    private static String IP_ADDRESS = "192.168.193.48";
+    //192.168.0.16
+    //192.168.0.2
     private static String TAG = "phptest"; //phptest log 찍으려는 용도
     private View view;
     String myJSON;
@@ -62,7 +66,7 @@ public class fragment_student extends Fragment implements AdapterView.OnItemSele
                 else {
                     InsertData task = new InsertData(); //PHP 통신을 위한 InsertData 클래스의 task 객체 생성
                     //본인이 접속할 PHP 주소와 보낼 데이터를 입력해준다.
-                    task.execute("http://"+IP_ADDRESS+"/gsgs/register.php",userID,userPassword, userNickname);
+                    task.execute("http://"+IP_ADDRESS+"/gsgs/student_register.php",userID,userPassword, userNickname);
                     Toast.makeText(getActivity().getApplicationContext(), "회원가입에 성공하셨습니다.", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getActivity(),MainActivity.class);
                     startActivity(intent);

@@ -49,19 +49,19 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <RadioButton
-                android:id="@+id/rb_store"
+                android:id="@+id/rb_student"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="가게"
+                android:text="학생"
                 android:textColor="#595656"
                 android:textSize="20sp" />
 
             <RadioButton
-                android:id="@+id/rb_student"
+                android:id="@+id/rb_store"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="학생"
+                android:text="가게"
                 android:textColor="#595656"
                 android:textSize="20sp" />
 

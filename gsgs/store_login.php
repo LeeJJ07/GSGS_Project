@@ -7,8 +7,6 @@ include('dbcon.php');
 $userID = isset($_POST["userID"]) ? $_POST["userID"] : "";
 $userPassword = isset($_POST["userPassword"]) ? $_POST["userPassword"] : "";
 
-$android = strpos($_SERVER['HTTP_USER_AGENT'], "Android");
-
 $response = array();
 $response["success"] = false;
 
