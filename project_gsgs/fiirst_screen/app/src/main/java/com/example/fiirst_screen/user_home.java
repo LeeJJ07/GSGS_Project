@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class user_home extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.log_in);
+        setContentView(R.layout.user_home);
 
     }
 }

@@ -32,7 +32,7 @@ public class fragment_student extends Fragment implements AdapterView.OnItemSele
     private EditText et_id, et_pw, et_nickname;
     private Button btn_register;
 
-    private static String IP_ADDRESS = "192.168.193.48";
+    private static String IP_ADDRESS = "192.168.0.2";
     //192.168.0.16
     //192.168.0.2
     private static String TAG = "phptest"; //phptest log 찍으려는 용도
