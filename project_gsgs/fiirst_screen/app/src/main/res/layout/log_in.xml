@@ -7,7 +7,7 @@
     android:background="#F5E5FF">
 
     <TextView
-        android:id="@+id/tv_pw2"
+        android:id="@+id/tv_pw"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -19,10 +19,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_email2" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
 
     <TextView
-        android:id="@+id/tv_email2"
+        android:id="@+id/tv_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -34,10 +34,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_gsgs" />
 
     <EditText
-        android:id="@+id/edit_email2"
+        android:id="@+id/edit_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -53,10 +53,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_email2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_email" />
 
     <EditText
-        android:id="@+id/edit_pw2"
+        android:id="@+id/edit_pw"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -72,10 +72,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_pw2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_pw" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/iv_gsgs"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="70dp"
@@ -100,7 +100,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_pw2" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_pw" />
 
     <LinearLayout
         android:layout_width="0dp"
