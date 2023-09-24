@@ -12,9 +12,16 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.viewmodel.CreationExtras;
 
 public class Frag_home extends Fragment {
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
 
+    private View view;
+    public Frag_home(){
+
+    }
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        view = inflater.inflate(R.layout.fragment_home,container,false);
+
+        return view;
     }
 }
